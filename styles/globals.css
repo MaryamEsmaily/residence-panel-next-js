@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -moz-font-feature-settings: "ss03";
+  -webkit-font-feature-settings: "ss03";
+  font-feature-settings: "ss03";
+}
+
+@layer base {
+  html {
+    @apply font-iran-sans-x;
+  }
+}
+
+/* customize react-toastify */
+
+.Toastify__toast {
+  @apply !font-iran-sans-x text-sm;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  @apply bg-success-400;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  @apply bg-error-400;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--warning {
+  @apply bg-warning-400;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--info {
+  @apply bg-info-400;
+}
+
+.ltr{
+  direction: ltr !important;
+}
+
+.rtl{
+  direction: rtl !important;
+}
