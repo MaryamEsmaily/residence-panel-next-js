@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "dev": "next dev -p 8055",
+    "dev": "next dev -p 2310",
     "build": "next build",
     "start": "next start",
     "export": "next export",
