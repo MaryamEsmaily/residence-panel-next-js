@@ -1,6 +1,7 @@
 const colors = {
   transparent: "transparent",
   white: "#fff",
+  teal: "#11a6a1",
   primary: {
     100: "#BFD0FF",
     200: "#80A0FE",
