@@ -13,7 +13,7 @@ function SearchBar() {
       </div>
 
       <button className="rounded-full bg-teal p-2">
-        <SearchIcon className="w-4 h-4 text-white" />
+        <SearchIcon className="text-white" />
       </button>
     </div>
   );
