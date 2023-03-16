@@ -15,7 +15,7 @@ function Footer() {
             { label: "امنیت", link: "#" },
             { label: "مقصدها", link: "#" },
           ].map((item) => (
-            <div key={item.link} className="flex gap-2 items-center">
+            <div key={item.label} className="flex gap-2 items-center">
               <div className="h-0.5 w-0.5 bg-gray-500 rounded-full"></div>
               <Link href={item.link}>
                 <div className="hover:underline">{item.label}</div>
