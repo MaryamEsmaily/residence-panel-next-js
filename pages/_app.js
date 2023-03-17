@@ -1,6 +1,7 @@
 import React from "react";
 import Providers from "@providers/index";
 import "styles/globals.css";
+import "swiper/css";
 
 function MyApp({ Component, pageProps }) {
   //

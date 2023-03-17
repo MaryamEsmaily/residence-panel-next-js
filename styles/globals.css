@@ -36,10 +36,22 @@
   @apply bg-info-400;
 }
 
-.ltr{
+/* customize swiper pagination */
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+  opacity: 1 !important;
+}
+
+.ltr {
   direction: ltr !important;
 }
 
-.rtl{
+.rtl {
   direction: rtl !important;
 }

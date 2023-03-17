@@ -3,17 +3,13 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
 import ArrowRightIcon from "@com-icons/ArrowRightIcon";
 import ArrowLeftIcon from "@com-icons/ArrowLeftIcon";
 
 function FiltersSection() {
   const swiperRef = useRef(null);
   return (
-    <div className="shadow-sm p-4">
+    <div className="shadow-sm p-4 sticky top-0 z-20 bg-white">
       <div className="grid grid-cols-12 gap-8 container">
         <div className="col-span-11 flex items-center">
           <button
@@ -34,7 +30,7 @@ function FiltersSection() {
               { lable: "کنار برکه", src: "/images/lake-front.jpg" },
               { lable: "کلبه سوییسی", src: "/images/a-house.jpg" },
               { lable: "منظر زیبا", src: "/images/amazing-view.jpg" },
-              { lable: "ط", src: "/images/barns.jpg" },
+              { lable: "انبار", src: "/images/barns.jpg" },
               { lable: "کنار دریا", src: "/images/beach-front.jpg" },
               { lable: "کابین", src: "/images/cabins.jpg" },
               { lable: "کمپ", src: "/images/camp.jpg" },
