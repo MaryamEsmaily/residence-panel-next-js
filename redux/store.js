@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import createMediaSlice from "@redux/createMediaSlice";
+import landingModesSlice from "./landingModesSlice";
 
 export const store = configureStore({
   reducer: {
-    createMedia: createMediaSlice,
+    landingMode: landingModesSlice,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

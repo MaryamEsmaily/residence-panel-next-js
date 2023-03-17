@@ -1,11 +1,19 @@
 import ArrowUp from "@com-icons/ArrowUp";
 import EarthIcon from "@com-icons/EarthIcon";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import ListIcon from "@com-icons/ListIcon";
+import MapIcon from "@com-icons/MapIcon";
+import { useDispatch, useSelector } from "react-redux";
+import { setIsShowMap } from "@redux/landingModesSlice";
 
 function Footer() {
+  const isShowMap = useSelector((state) => state.landingMode.isShowMap);
+
+  const dispatch = useDispatch();
+  //
   return (
-    <div className="h-[48px] border-t">
+    <div className="h-[48px] border-t relative">
       <div className="container flex h-full items-center justify-between text-sm">
         <div className="flex gap-4 text-gray-600">
           <div>© 1401 سره سرا.</div>
@@ -35,6 +43,24 @@ function Footer() {
             <ArrowUp className="w-4 h-4" />
           </button>
         </div>
+      </div>
+      <div className="absolute -top-[90px] w-screen text-center z-20">
+        <button
+          onClick={() => dispatch(setIsShowMap(!isShowMap))}
+          className=" bg-black text-white px-5 py-4 rounded-full text-sm transition ease-in hover:scale-105 duration-150"
+        >
+          <div className="flex gap-1">
+            {!isShowMap ? (
+              <>
+                <MapIcon /> <div>نمایش نقشه</div>
+              </>
+            ) : (
+              <>
+                <ListIcon /> <div>نمایش لیست</div>
+              </>
+            )}
+          </div>
+        </button>
       </div>
     </div>
   );
