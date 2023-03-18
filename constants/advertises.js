@@ -25,6 +25,9 @@ export const advertises = [
       { src: "/images/homes/home-2-3.jpg", alt: "" },
       { src: "/images/homes/home-2-4.jpg", alt: "" },
       { src: "/images/homes/home-2-5.jpg", alt: "" },
+      { src: "/images/homes/home-2-6.jpg", alt: "" },
+      { src: "/images/homes/home-2-7.jpg", alt: "" },
+      { src: "/images/homes/home-2-8.jpg", alt: "" },
     ],
   },
   {
@@ -39,6 +42,10 @@ export const advertises = [
       { src: "/images/homes/home-3-3.jpg", alt: "" },
       { src: "/images/homes/home-3-4.jpg", alt: "" },
       { src: "/images/homes/home-3-5.jpg", alt: "" },
+      { src: "/images/homes/home-3-6.jpg", alt: "" },
+      { src: "/images/homes/home-3-7.jpg", alt: "" },
+      { src: "/images/homes/home-3-8.jpg", alt: "" },
+      { src: "/images/homes/home-3-9.jpg", alt: "" },
     ],
   },
   {
@@ -53,6 +60,9 @@ export const advertises = [
       { src: "/images/homes/home-4-3.jpg", alt: "" },
       { src: "/images/homes/home-4-4.jpg", alt: "" },
       { src: "/images/homes/home-4-5.jpg", alt: "" },
+      { src: "/images/homes/home-4-6.jpg", alt: "" },
+      { src: "/images/homes/home-4-7.jpg", alt: "" },
+      { src: "/images/homes/home-4-8.jpg", alt: "" },
     ],
   },
   {
@@ -67,6 +77,10 @@ export const advertises = [
       { src: "/images/homes/home-5-3.jpg", alt: "" },
       { src: "/images/homes/home-5-4.jpg", alt: "" },
       { src: "/images/homes/home-5-5.jpg", alt: "" },
+      { src: "/images/homes/home-5-6.jpg", alt: "" },
+      { src: "/images/homes/home-5-7.jpg", alt: "" },
+      { src: "/images/homes/home-5-8.jpg", alt: "" },
+      { src: "/images/homes/home-5-9.jpg", alt: "" },
     ],
   },
   {
@@ -81,6 +95,8 @@ export const advertises = [
       { src: "/images/homes/home-6-3.jpg", alt: "" },
       { src: "/images/homes/home-6-4.jpg", alt: "" },
       { src: "/images/homes/home-6-5.jpg", alt: "" },
+      { src: "/images/homes/home-6-6.jpg", alt: "" },
+      { src: "/images/homes/home-6-7.jpg", alt: "" },
     ],
   },
 ];
