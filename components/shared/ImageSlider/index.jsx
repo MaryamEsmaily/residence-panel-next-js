@@ -17,13 +17,16 @@ function ImageSlider({ images }) {
         <ArrowRightIcon />
       </button>
       <Swiper
+        initialSlide={2}
         ref={swiperRef}
+        simulateTouch={false}
         loop={true}
         style={{ width: "100%" }}
         modules={[Navigation, Pagination]}
-        pagination
+        pagination={{
+          dynamicBullets: true,
+        }}
         centeredSlides={true}
-        grabCursor={true}
       >
         {images?.map((img) => (
           <SwiperSlide key={img.src}>
