@@ -44,7 +44,7 @@ function Footer() {
           </button>
         </div>
       </div>
-      <div className="absolute -top-[90px] w-screen text-center z-20">
+      <div className="absolute -top-[90px] w-screen text-center z-[9999]">
         <button
           onClick={() => dispatch(setIsShowMap(!isShowMap))}
           className=" bg-black text-white px-5 py-4 rounded-full text-sm transition ease-in hover:scale-105 duration-150"

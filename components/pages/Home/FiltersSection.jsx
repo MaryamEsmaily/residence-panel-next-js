@@ -9,7 +9,7 @@ import ArrowLeftIcon from "@com-icons/ArrowLeftIcon";
 function FiltersSection() {
   const swiperRef = useRef(null);
   return (
-    <div className="shadow-sm p-4 sticky top-0 z-20 bg-white">
+    <div className="shadow-sm p-4 sticky top-0 z-[9999] bg-white">
       <div className="grid grid-cols-12 gap-8 container">
         <div className="col-span-11 flex items-center">
           <button
