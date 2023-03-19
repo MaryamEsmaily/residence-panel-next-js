@@ -9,7 +9,7 @@ function Footer() {
   //
   return (
     <div className="bg-[#f7f7f7] border-t">
-      <div className="container px-12">
+      <div className="container px-[80px]">
         <div className="flex justify-between py-12">
           <div className="space-y-4 font-thin">
             <div className="font-medium">پشتیبانی</div>
