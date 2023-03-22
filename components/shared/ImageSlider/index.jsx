@@ -9,9 +9,9 @@ import "swiper/css/pagination";
 function ImageSlider({ images }) {
   const swiperRef = useRef();
   return (
-    <div className="relative [&_button]:hover:opacity-100">
+    <div className="relative">
       <button
-        className="transition duration-300 ease-out hover:ease-in opacity-0 absolute bg-white z-10 -translate-y-1/2 right-2 top-1/2 rounded-full border p-2 h-fit"
+        className="group-hover/container-slider:opacity-100  transition duration-300 ease-out opacity-0 absolute bg-white z-10 -translate-y-1/2 right-2 top-1/2 rounded-full border p-2 h-fit"
         onClick={() => swiperRef.current.swiper.slidePrev()}
       >
         <ArrowRightIcon />
@@ -42,7 +42,7 @@ function ImageSlider({ images }) {
         ))}
       </Swiper>
       <button
-        className="absolute transition duration-300 ease-out hover:ease-in opacity-0 bg-white z-10 -translate-y-1/2 left-2 top-1/2 rounded-full border p-2 h-fit"
+        className="group-hover/container-slider:opacity-100 absolute transition duration-300 ease-out opacity-0 bg-white z-10 -translate-y-1/2 left-2 top-1/2 rounded-full border p-2 h-fit"
         onClick={() => swiperRef.current.swiper.slideNext()}
       >
         <ArrowLeftIcon />

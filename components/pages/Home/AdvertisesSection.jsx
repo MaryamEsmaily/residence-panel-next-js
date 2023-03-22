@@ -9,28 +9,28 @@ function AdvertisesSection() {
   return (
     <div className="grid grid-cols-4 gap-x-6 gap-y-10 container my-4">
       {advertises?.map((item) => (
-        <div key={item.id} className="relative">
-          <ImageSlider images={item.images} />
+        <div key={item.id} className="relative group/container-slider">
           <Link
+            className="absolute w-full h-full z-10"
             href={{
               pathname: "/[id]",
               query: {
                 id: item.id,
               },
             }}
-          >
-            <div className="mt-2 space-y-1">
-              <div className="flex justify-between items-center">
-                <div>{item.location}</div>
-                <div className="flex items-center gap-1">
-                  <div className="font-light">{item.rate}</div>
-                  <StarIcon />
-                </div>
+          />
+          <ImageSlider images={item.images} />
+          <div className="mt-2 space-y-1">
+            <div className="flex justify-between items-center">
+              <div>{item.location}</div>
+              <div className="flex items-center gap-1">
+                <div className="font-light">{item.rate}</div>
+                <StarIcon />
               </div>
-              <div className="font-thin"> به میزبانی {item.hostedBy}</div>
-              <div> شبی {item.pricePerNight} تومان </div>
             </div>
-          </Link>
+            <div className="font-thin"> به میزبانی {item.hostedBy}</div>
+            <div> شبی {item.pricePerNight} تومان </div>
+          </div>
 
           <div className="absolute top-3 left-4 z-10">
             <button>

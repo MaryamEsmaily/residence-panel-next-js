@@ -1,4 +1,4 @@
-import DetailsLayout from "@com-layouts/LandingLayout";
+import LandingLayout from "@com-layouts/LandingLayout";
 import AdvertisesSection from "@com-pages/Home/AdvertisesSection";
 import FiltersSection from "@com-pages/Home/FiltersSection";
 import dynamic from "next/dynamic";
@@ -21,7 +21,7 @@ function Home() {
 }
 
 Home.getLayout = function getLayout(page) {
-  return <DetailsLayout>{page}</DetailsLayout>;
+  return <LandingLayout>{page}</LandingLayout>;
 };
 
 export default Home;

@@ -7,7 +7,7 @@ import SearchBar from "./SearchBar";
 function Header() {
   return (
     <div className="h-[80px] border-b">
-      <div className="container px-[80px] flex justify-between items-center h-full">
+      <div className="container  flex justify-between items-center h-full">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2 border rounded-3xl p-1 hover:shadow-lg">
             <AccountIcon className="w-8 h-8 text-gray-500" />
