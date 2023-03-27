@@ -13,7 +13,7 @@ function HostInfo() {
       </div>
       <div className="flex gap-14">
         <div className="space-y-4">
-          <div className="max-w-lg font-light">
+          <div className="max-w-sm font-light leading-7">
             در سال 1299 ساخته شده‌است و میزبان راهبان و خانواده‌ها بوده‌.
             مشتاقانه منتظر حضور شما هستم.
           </div>
